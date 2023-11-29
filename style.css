@@ -1,0 +1,52 @@
+.bg-nav {
+    background-color: lightgreen;
+    padding: 15px 0px !important;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.conteiner-card {
+    margin-top: 150px;
+}
+
+.card-custum-width {
+    width: 90%;
+}
+
+.bg-btn {
+    background-color: lightgreen;
+}
+
+.mx-negative {
+    padding-left: -12px !important;
+}
+
+.btn-modal {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    background-color: white;
+    animation: pulse 1s ease infinite alternate;
+}
+
+@keyframes pulse {
+    from { 
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.nav-b {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
