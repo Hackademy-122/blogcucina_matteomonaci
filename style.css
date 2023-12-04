@@ -1,6 +1,15 @@
 .bg-nav {
-    background-color: lightgreen;
+    background-color: #A22522;
     padding: 15px 0px !important;
+}
+
+
+body {
+    background-color: rgb(255, 255, 248);
+}
+
+.card-title {
+   color: #A22522;
 }
 
 .cap {
@@ -20,11 +29,8 @@
 }
 
 .bg-btn {
-    background-color: lightgreen;
-}
-
-.mx-negative {
-    padding-left: -12px !important;
+    background-color: #A22522;
+    
 }
 
 .btn-modal {
@@ -32,21 +38,65 @@
     top: -3px;
     right: -3px;
     background-color: white;
-    animation: pulse 1s ease infinite alternate;
+    animation: pulse 0.8s linear infinite alternate;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.btn-close:hover {
+    opacity: 1;
 }
 
 @keyframes pulse {
     from { 
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 
     to {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }
+
 
 .nav-b {
     position: absolute;
     top: 5px;
     left: 5px;
+}
+
+.modal-title {
+   color: #A22522;
+}
+
+.btn-close {
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 248);
+
+}
+
+.btn {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgba(163, 35, 33, 0.5) 
+}
+
+.footer-link:hover {
+    color: black !important;
+}
+
+.footer-link:active {
+    color: black !important;
 }
